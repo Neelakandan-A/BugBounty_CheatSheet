@@ -42,6 +42,6 @@ We like to keep our Markdown files as uniform as possible. So if you submit a PR
 - Code blocks should use three backticks. (```)
 - Make sure to use syntax highlighting whenever possible.
 
-# Contributors
+# Author
 
 - [Neelakandan A](https://github.com/Neelakandan-A)
