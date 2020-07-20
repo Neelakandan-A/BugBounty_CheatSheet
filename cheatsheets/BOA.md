@@ -8,7 +8,7 @@ Attacker would use a buffer-overflow exploit to take advantage of a program that
 Let us study some real program examples that show the danger of such situations based on the C.
 In the examples, we do not implement any malicious code injection but just to show that the buffer can be overflow. Modern compilers normally provide overflow checking option during the compile/link time but during the run time it is quite difficult to check this problem without any extra protection mechanism such as using exception handling.
 
-{ // A C program to demonstrate buffer overflow 
+``` // A C program to demonstrate buffer overflow 
 #include <stdio.h> 
 #include <string.h> 
 #include <stdlib.h> 
@@ -40,4 +40,10 @@ int main(int argc, char *argv[])
        printf("strcpy() executed...\n"); 
   
        return 0; 
-}* 
+}* ```
+
+The vulnerability exists because the buffer could be overflowed if the user input (argv[1]) bigger than 8 bytes. Why 8 bytes? For 32 bit (4 bytes) system, we must fill up a double word (32 bits) memory. Character (char) size is 1 byte, so if we request buffer with 5 bytes, the system will allocate 2 double words (8 bytes). That is why when you input more than 8 bytes; the mybuffer will be over flowed
+
+Similar standard functions that are technically less vulnerable, such as strncpy(), strncat(), and memcpy(), do exist. But the problem with these functions is that it is the programmer responsibility to assert the size of the buffer, not the compiler.
+
+Every C/C++ coder or programmer must know the buffer overflow problem before they do the coding. A lot of bugs generated, in most cases can be exploited as a result of buffer overflow.
