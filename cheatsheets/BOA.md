@@ -40,7 +40,15 @@ int main(int argc, char *argv[])
        printf("strcpy() executed...\n"); 
   
        return 0; 
-}* ```
+}* 
+```
+``` 
+ Input  : 12345678 (8 bytes), the program run smoothly.
+```
+```
+ Input : 123456789 (9 bytes)
+"Segmentation fault" message will be displayed and the program terminates
+```
 
 The vulnerability exists because the buffer could be overflowed if the user input (argv[1]) bigger than 8 bytes. Why 8 bytes? For 32 bit (4 bytes) system, we must fill up a double word (32 bits) memory. Character (char) size is 1 byte, so if we request buffer with 5 bytes, the system will allocate 2 double words (8 bytes). That is why when you input more than 8 bytes; the mybuffer will be over flowed
 
