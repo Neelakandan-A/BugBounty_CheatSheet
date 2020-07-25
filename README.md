@@ -702,4 +702,9 @@ We like to keep our Markdown files as uniform as possible. So if you submit a PR
 - Code blocks should use three backticks. (```)
 - Make sure to use syntax highlighting whenever possible.
 
+![](https://image.ibb.co/i4ES3U/bc.png)
+
+   ![](https://i.ibb.co/VmtCBg3/BTC-QRCode.png)
+
+Bitcoin: 35ptN6ZEsuQpJWpCLuw2RQL176MB6yBfaS
 
