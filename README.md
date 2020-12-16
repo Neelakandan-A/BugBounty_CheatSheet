@@ -1,5 +1,3 @@
-![Neelakandan's BugBounty_CheatSheet](https://github-readme-stats.vercel.app/api/pin/?username=Neelakandan-A&repo=BugBounty_CheatSheet&cache_seconds=86400&theme=tokyonight)
-
 # Bug Bounty Cheat Sheet</h1>
 
 | 📚 Reference                                                | 🔎 Vulnerabilities                                        | 
