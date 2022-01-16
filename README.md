@@ -682,7 +682,7 @@ We welcome contributions from the public.
 
 ### Using the issue tracker 💡
 
-The issue tracker is the preferred channel for bug reports and features requests. [![GitHub issues](https://img.shields.io/github/issues/EdOverflow/bugbounty-cheatsheet.svg?style=flat-square)](https://github.com/EdOverflow/bugbounty-cheatsheet/issues)
+The issue tracker is the preferred channel for bug reports and features requests. [![GitHub issues](https://img.shields.io/github/issues/EdOverflow/bugbounty-cheatsheet.svg?style=flat-square)](https://github.com/Neelakandan-A/BugBounty_CheatSheet/issues)
 
 ### Issues and labels 🏷
 
