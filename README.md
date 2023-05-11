@@ -669,12 +669,12 @@
 
 ## Buffer Overflow Writeups
 
--[Buffer Overflow Attack Book pdf](http://www.cis.syr.edu/~wedu/seed/Book/book_sample_buffer.pdf)
--[Github Reposirtory on Buffer Overflow Attack](https://github.com/npapernot/buffer-overflow-attack)
--[Stack-Based Buffer Overflow Attacks: Explained and Examples](https://blog.rapid7.com/2019/02/19/stack-based-buffer-overflow-attacks-what-you-need-to-know/)
--[How Buffer Overflow Attacks Work](https://www.netsparker.com/blog/web-security/buffer-overflow-attacks/)
--[Binary Exploitation: Buffer Overflows](https://blog.usejournal.com/binary-exploitation-buffer-overflows-a9dc63e8b546)
--[WHAT IS A BUFFER OVERFLOW? LEARN ABOUT BUFFER OVERRUN VULNERABILITIES, EXPLOITS & ATTACKS](https://www.veracode.com/security/buffer-overflow)
+- [Buffer Overflow Attack Book pdf](http://www.cis.syr.edu/~wedu/seed/Book/book_sample_buffer.pdf)
+- [Github Reposirtory on Buffer Overflow Attack](https://github.com/npapernot/buffer-overflow-attack)
+- [Stack-Based Buffer Overflow Attacks: Explained and Examples](https://blog.rapid7.com/2019/02/19/stack-based-buffer-overflow-attacks-what-you-need-to-know/)
+- [How Buffer Overflow Attacks Work](https://www.netsparker.com/blog/web-security/buffer-overflow-attacks/)
+- [Binary Exploitation: Buffer Overflows](https://blog.usejournal.com/binary-exploitation-buffer-overflows-a9dc63e8b546)
+- [WHAT IS A BUFFER OVERFLOW? LEARN ABOUT BUFFER OVERRUN VULNERABILITIES, EXPLOITS & ATTACKS](https://www.veracode.com/security/buffer-overflow)
 
 # Contributing
 
@@ -701,10 +701,4 @@ We like to keep our Markdown files as uniform as possible. So if you submit a PR
 - Add newlines after subheadings and code blocks.
 - Code blocks should use three backticks. (```)
 - Make sure to use syntax highlighting whenever possible.
-
-![](https://image.ibb.co/i4ES3U/bc.png)
-
-   ![](https://i.ibb.co/VmtCBg3/BTC-QRCode.png)
-
-Bitcoin : 35ptN6ZEsuQpJWpCLuw2RQL176MB6yBfaS
 
